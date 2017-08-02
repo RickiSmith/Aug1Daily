@@ -1,0 +1,49 @@
+body{
+  font-family: 'Raleway', sans-serif;
+}
+
+h1{
+  text-align: center;
+  padding-bottom: 3px;
+  font-weight: bold;
+}
+
+h3{
+  font-weight: bold;
+}
+
+img{
+  width: 95%;
+}
+
+u{
+  text-decoration: none;
+  border-bottom: 1px solid #5bb268;
+  padding-bottom: 3px;
+}
+
+.customer{
+  flex-basis: 25%;
+  text-align: center;
+}
+#email{
+  font-size: 14px;
+  color: #c2c6c3;
+
+}
+#address{
+  text-transform: capitalize;
+  color: #898c8a;
+}
+h3, #email{
+  text-transform: uppercase;
+
+}
+
+section{
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
